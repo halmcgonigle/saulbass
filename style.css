@@ -10,7 +10,7 @@
 body {
     width: 100%;
     padding: 0 0 0 5px;
-    font-family: 'Vertigon', serif;
+    font-family: 'Vertigon', sans-serif;
     margin: auto;
     background: #f0f0f0;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 .nav > li > a {
     text-decoration: none;
-    font-family: 'Art Post Black';
+    font-family: 'Art Post black', sans-serif;
     color: #FF6000;
 }
 
@@ -56,6 +56,32 @@ body {
 .banner-image {
     width: 1366px; 
     height: 100%;
+}
+
+/*----- FONTS -----*/
+
+@font-face {
+    font-family: 'Art Post black';
+    src: url(fonts/Art Post black);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hitchcock';
+    src: url(fonts/Hitchcock);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sinzano-Regular';
+    src: url(fonts/Sinzano-Regular);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vertigon';
+    src: url(fonts/Vertigon);
+    font-style: normal;
 }
 
 /* ----- TYPOGRAPHY ----- */
@@ -168,7 +194,7 @@ h6 {
 
 blockquote {
     padding: 25px;
-    font-family: 'Sinzano';
+    font-family: 'Sinzano', sans-serif;
     font-size: 30px;
     line-height: 30px;
     color: #777;
@@ -302,7 +328,7 @@ blockquote cite {
 
 .sources > li > a {
     text-decoration: none;
-    font-family: 'Vertigon';
+    font-family: 'Vertigon', sans-serif;
     color: #FF6000;
 }
 
