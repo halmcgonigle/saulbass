@@ -61,41 +61,39 @@ body {
 /*----- FONTS -----*/
 
 @font-face {
-    font-family: '';
-    src: url();
-    font-style: normal;
-}
-
-@font-face {
 font-family: "Art Post black";
-src: url("Art Post black.ttf");
+src: url("art_post_black.ttf");
 src: 
-url("Art Post black.woff") format("woff"),
-url("Art Post black.otf") format("opentype"),
-url("Art Post black.svg#Art Post black") format("svg");
-}
-
-
-
-
-
-
-@font-face {
-    font-family: 'Hitchcock';
-    src: url(Hitchcock.ttf);
-    font-style: normal;
+url("art_post_black.woff") format("woff"),
+url("art_post_black.otf") format("opentype"),
+url("art_post_black.svg#art_post_black") format("svg");
 }
 
 @font-face {
-    font-family: 'Sinzano-Regular';
-    src: url(Sinzano-Regular.ttf);
-    font-style: normal;
+font-family: "Hitchcock";
+src: url("hitchcock.ttf");
+src: 
+url("hitchcock.woff") format("woff"),
+url("hitchcock.otf") format("opentype"),
+url("hitchcock.svg#hitchcock") format("svg");
 }
 
 @font-face {
-    font-family: 'Vertigon';
-    src: url(Vertigon.otf);
-    font-style: normal;
+font-family: "Sinzano";
+src: url("sinzano_regular.ttf");
+src: 
+url("sinzano_regular.woff") format("woff"),
+url("sinzano_regular.otf") format("opentype"),
+url("sinzano_regular.svg#sinzano_regular") format("svg");
+}
+
+@font-face {
+font-family: "Vertigon";
+src: url("vertigon.otf");
+src: 
+url("vertigon.woff") format("woff"),
+url("vertigon.otf") format("opentype"),
+url("vertigon.svg#vertigon") format("svg");
 }
 
 /* ----- TYPOGRAPHY ----- */
