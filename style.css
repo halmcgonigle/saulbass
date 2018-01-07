@@ -63,11 +63,11 @@ body {
 
 @font-face {
 font-family: "Art Post black";
-src: url("../SAULBASS/artpost.ttf");
+src: url("/SAULBASS/artpost.ttf");
 src: 
-url("../SAULBASS/artpost.woff") format("woff"),
-url("../SAULBASS/artpost.otf") format("opentype"),
-url("../SAULBASS/artpost.svg#artpost") format("svg");
+url("/SAULBASS/artpost.woff") format("woff"),
+url("/SAULBASS/artpost.otf") format("opentype"),
+url("/SAULBASS/artpost.svg#artpost") format("svg");
 }
 
 @font-face {
