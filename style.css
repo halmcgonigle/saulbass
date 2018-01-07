@@ -9,6 +9,7 @@
 
 body {
     width: 100%;
+    max-width: 100%;
     padding: 0 0 0 5px;
     font-family: 'Vertigon', sans-serif;
     margin: auto;
@@ -62,11 +63,11 @@ body {
 
 @font-face {
 font-family: "Art Post black";
-src: url("art_post_black.ttf");
+src: url("artpost.ttf");
 src: 
-url("art_post_black.woff") format("woff"),
-url("art_post_black.otf") format("opentype"),
-url("art_post_black.svg#art_post_black") format("svg");
+url("artpost.woff") format("woff"),
+url("artpost.otf") format("opentype"),
+url("artpost.svg#artpost") format("svg");
 }
 
 @font-face {
@@ -80,11 +81,11 @@ url("hitchcock.svg#hitchcock") format("svg");
 
 @font-face {
 font-family: "Sinzano";
-src: url("sinzano_regular.ttf");
+src: url("sinzano.ttf");
 src: 
-url("sinzano_regular.woff") format("woff"),
-url("sinzano_regular.otf") format("opentype"),
-url("sinzano_regular.svg#sinzano_regular") format("svg");
+url("sinzano.woff") format("woff"),
+url("sinzano.otf") format("opentype"),
+url("sinzano.svg#sinzano") format("svg");
 }
 
 @font-face {
@@ -272,10 +273,10 @@ blockquote cite {
     padding: 0 0 10px 0;
 }
 
-.button {
+.white {
     align-items: center;
-    margin: 10px auto 10px auto;
-    padding: 0 0 10px 0;
+    margin: 10px auto 0 auto;
+    padding: 10px;
 }
 
 /*----- INFLUENCES TODAY -----*/
@@ -312,9 +313,9 @@ blockquote cite {
 }
 
 .influ4 {
-     float: right;
+    float: right;
     margin-left: 280px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     width: 75%;
     text-align: left;
 }
