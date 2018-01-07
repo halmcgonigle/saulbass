@@ -63,35 +63,22 @@ body {
 
 @font-face {
 font-family: "Art Post black";
-src: url('fonts/artpost.ttf')
-format('truetype');
+src: url("artpost.ttf");
 }
 
 @font-face {
 font-family: "Hitchcock";
-src: url("/hitchcock.ttf");
-src: 
-url("/hitchcock.woff") format("woff"),
-url("/hitchcock.otf") format("opentype"),
-url("/hitchcock.svg#hitchcock") format("svg");
+src: url("hitchcock.ttf");
 }
 
 @font-face {
 font-family: "Sinzano";
-src: url("/sinzano.ttf");
-src: 
-url("../sinzano.woff") format("woff"),
-url("/sinzano.otf") format("opentype"),
-url("/sinzano.svg#sinzano") format("svg");
+src: url("sinzano.ttf");
 }
 
 @font-face {
 font-family: "Vertigon";
-src: url("/vertigon.otf");
-src: 
-url("/vertigon.woff") format("woff"),
-url("/vertigon.otf") format("opentype"),
-url("/vertigon.svg#vertigon") format("svg");
+src: url("vertigon.otf");
 }
 
 /* ----- TYPOGRAPHY ----- */
