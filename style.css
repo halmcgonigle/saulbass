@@ -62,25 +62,25 @@ body {
 
 @font-face {
     font-family: 'Art Post black';
-    src: url(fonts/Art Post black);
+    src: url(fonts/Art Post black.ttf);
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Hitchcock';
-    src: url(fonts/Hitchcock);
+    src: url(fonts/Hitchcock.ttf);
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sinzano-Regular';
-    src: url(fonts/Sinzano-Regular);
+    src: url(fonts/Sinzano-Regular.ttf);
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vertigon';
-    src: url(fonts/Vertigon);
+    src: url(fonts/Vertigon.otf);
     font-style: normal;
 }
 
