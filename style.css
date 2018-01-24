@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-size; 100%;
-    line-height: 20px;
+    line-height: 23px;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     background: #f0f0f0;
     display: flex;
     flex-direction: column;
-    line-height: 20px;
+    line-height: 23px;
 }
 
 /* ----- NAVIGATION ----- */
@@ -190,10 +190,10 @@ h6 {
 /* ----- BLOCKQUOTES ----- */
 
 blockquote {
-    padding: 25px;
+    padding: 48px;
     font-family: 'Sinzano', sans-serif;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
     color: #777;
 }
 
@@ -212,7 +212,7 @@ blockquote cite {
     height: 194px;
     float: left;
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     padding: 0 10px 70px 0;
     vertical-align: top;
 }
@@ -221,7 +221,7 @@ blockquote cite {
     width: 220px;
     height: 326px;
     float: left;
-    padding: 0 50px 20px 0;
+    padding: 0 50px 105px 0;
 }
 
 .gold {
@@ -235,14 +235,14 @@ blockquote cite {
     width: 220px;
     height: 326px;
     float: left;
-    padding: 0 50px 85px 0;
+    padding: 0 50px 155px 0;
 }
 
 .logolist {
     width: 400px;
     height: 795px;
     float: right;
-    padding: 10px 0 140px 20px;
+    padding: 10px 0 190px 20px;
 }
 
 .precious {
